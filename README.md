@@ -1,4 +1,4 @@
-<img width="885" height="572" alt="image" src="https://github.com/user-attachments/assets/d1fae5c6-ed04-4252-9f54-b8ed73b446b3" /># stud-devops_lab1
+# stud-devops_lab1
 Скрипт получает текущую погоду через API Open-Meteo и генерирует HTML-страницу с информацией о температуре, влажности и скорости ветра.
 
 Для запуска сервиса на Ubuntu 24.04 установить пакеты:
