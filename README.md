@@ -5,18 +5,26 @@
 ```
 sudo apt install -y curl jq nginx cron
 ```
-
 Склонировать репозиторий, выдать права на запуск
-
+```
 git clone https://github.com/SoulEra/stud-devops_lab1
+```
+```
 chmod +x pogoda_scrypt.sh
+```
+```
+
 sudo mv stud-devops_lab1 /srv/
+```
 
 Добавить задачу в крон для запуса каждую минуту
-
+```
 sudo -i
+```
+```
 crontab -e
 * * * * * /srv/stud-devops_lab1/pogoda_scrypt.sh"
+```
 
 После запуска скрипта будет доступна страница по адресу
 http://IP_WEB-SERVER/
