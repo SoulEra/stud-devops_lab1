@@ -13,7 +13,6 @@ git clone https://github.com/SoulEra/stud-devops_lab1
 chmod +x pogoda_scrypt.sh
 ```
 ```
-
 sudo mv stud-devops_lab1 /srv/
 ```
 
