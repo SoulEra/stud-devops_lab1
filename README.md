@@ -3,7 +3,7 @@
 
 Для запуска сервиса на Ubuntu 24.04 установить пакеты:
 ```
-sudo apt install -y curl jq nginx cron
+sudo apt install -y curl jq nginx cron git
 ```
 Склонировать репозиторий, выдать права на запуск
 ```
